@@ -1,0 +1,217 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+
+  a{
+    text-decoration: none;
+  }
+  @keyframes blink {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+}
+
+  
+  .brand-name, 
+  .navbar-light .navbar-brand {
+      font-family: "Abril Fatface", serif;
+      font-weight: 800; /* Use a bold weight for better consistency */
+      font-style: normal;
+      font-size: 60px;
+      color: #E17878;
+      animation: blink 2s infinite; 
+  }
+  
+
+  
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+  
+  .headerachor:hover {
+    background-color: #F8EFDE;
+    color:white!important;
+    border-radius: 5px;;
+  }
+
+  #contact{
+      padding: 20px 20px 10px;
+  }
+ 
+
+  .first-section{
+      text-align: center;
+  }
+
+  .Profilepic{
+    border-radius: 100%;
+    width: 272px;
+    height: 310px;
+    border: 4px solid;
+    border-color:#E0D9D2;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
+}
+
+  .context{
+    text-align: center;
+    padding-top: 20px;
+}
+
+  h1{
+      font-weight: bold;
+  }
+   
+  p{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:#868e96;
+  }
+
+  .ico{
+    padding: 0;
+  }
+
+  .icon{
+      text-decoration: none;
+      list-style: none;
+      margin: 0 7px 0;
+      display: inline;
+      
+  }
+
+  .github{color: gray;}
+  .instagram{
+    color: #fb3958;
+  }
+  .linkedin{
+    color: #0e76a8;
+  }
+  .google{
+    color: #ea4335;
+  }
+
+  .github:hover , .instagram:hover , .google:hover , .linkedin:hover{
+      color: black;
+  }
+  .Project-box:focus {
+    outline: 2px solid #E17878; /* Change the outline color */
+    outline-offset: 2px; /* Add some space between the element and the outline */
+  }
+
+  .Resume{
+      background-color:#E9CCC3;
+      color: white;
+     
+  }
+  .Resume:hover{
+      color: white;
+      background-color: #C9CAD8;
+  }
+
+  .second-section{
+    text-align: center;
+  }
+
+  .connect{
+    font-weight: normal;
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:white;
+    background-color:#E9C0C3;
+    padding: 10px 30px 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 10px;
+  }
+
+  .connection{
+    margin-top: 30px;
+    margin-left: 290px;
+    width:100%;
+    height:100%;
+    margin-bottom: 10px;
+  }
+
+  .sayhello{
+     margin-top: 15px;
+     border:1px solid#E0D9D2;
+     border-radius: 10px;
+     padding: 10px 20px 10px;
+  }
+
+  .sayhello:hover{
+    text-align: none;
+    text-decoration: none;
+    color:white;
+    background-color:#E0D9D2 ;
+  }
+
+  span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  0.0deg) }
+     10% { transform: rotate(-10.0deg) }
+     20% { transform: rotate( 12.0deg) }
+     30% { transform: rotate(-10.0deg) }
+     40% { transform: rotate(  9.0deg) }
+     50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
+  }
+
+ 
+  @media only screen and (max-width : 950px){
+
+    body,html{
+      text-align: center;
+      font-size: 16px;
+      line-height: normal;
+    }
+    h1{
+      font-size: 30px;
+    }
+    .connect{
+      font-size: 20px;
+    }
+    .connection{
+      margin-left: 0px;
+    }
+
+  }
+
+  .footer {
+    padding: 10px 0; /* Add vertical padding */
+    color: #868e96; /* Text color */
+    text-align: center; /* Center align text */
+    width: 100vw; /* Full width of the viewport */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    position: relative; /* Ensures proper positioning */
+}
+
+.footer img {
+    width: 128vw; /* Set the image width to 100% of the viewport width */
+    max-height: 172px; /* Set a maximum height for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some space between text and image */
+    display: block; /* Force the image to a new line */
+    padding: 0; /* Remove any padding that might affect the image */
+    border: none; /* Remove any default border that might cause spacing */
+    margin-left: -80px; /* Ensure no left margin */
+    margin-right: 0; /* Ensure no right margin */
+}

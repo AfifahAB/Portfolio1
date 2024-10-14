@@ -1,0 +1,136 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.body_section{
+  padding : 3% 5% 1%;
+}
+@keyframes blink {
+0%, 100% {
+    opacity: 1; /* Fully visible */
+}
+50% {
+    opacity: 0; /* Invisible */
+}
+}
+
+.brand-name, 
+.navbar-light .navbar-brand {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400; /* Use a bold weight for better consistency */
+    font-style: normal;
+    font-size: 60px;
+    color: #E17878;
+    
+    animation: blink 2s infinite; 
+}
+
+.headerachor {
+  color: black;
+  margin: 0 7px 0 7px;
+  font-size: 25px;
+}
+
+.headerachor:hover {
+  background-color: #F8EFDE;
+  color:white!important;
+  border-radius: 5px;;
+}
+
+.projectimage{
+    width:100%;
+    height:100%;
+}
+
+.Section1{
+  padding: 5% 0 3%;
+}
+
+.project-heading{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+.P-heading{
+  padding-bottom: 10px;
+  font-size : 40px;
+}
+
+.p-text{
+  font-size: 18px;
+  color:#868e96;
+}
+
+.Project-box{
+  color:black;
+  text-decoration: none;
+}
+
+.col-sm-6{
+  padding-bottom: 20px;
+}
+
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+.iconify{
+ width:40px;
+ height: 40px;
+ float: right;
+}
+
+.project-text{
+ color :#868e96;
+ font-family: "Montserrat";
+ font-weight: 300;
+}
+
+
+@media only screen and (max-width : 764px){
+ .project-heading{
+   width: 100%;
+ }
+
+}
+
+
+.footer {
+  padding: 10px 0; /* Add vertical padding */
+  color: #868e96; /* Text color */
+  text-align: center; /* Center align text */
+  width: 100vw; /* Full width of the viewport */
+  background-color: #f8f9fa; /* Light background color for contrast */
+  position: relative; /* Ensures proper positioning */
+}
+
+.footer img {
+  width: 128vw; /* Set the image width to 100% of the viewport width */
+  max-height: 172px; /* Set a maximum height for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px; /* Add some space between text and image */
+  display: block; /* Force the image to a new line */
+  padding: 0; /* Remove any padding that might affect the image */
+  border: none; /* Remove any default border that might cause spacing */
+  margin-left: -80px; /* Ensure no left margin */
+  margin-right: 0; /* Ensure no right margin */
+} 
